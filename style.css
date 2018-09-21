@@ -4,13 +4,34 @@
 body{
   width: 100%;
   margin: 0;
-  background-color: grey;
+  height: 5000px;
+  background-color: rgba(255, 255, 255, 1);
 }
-#header{
-  background-color:#FFFFFF;
-  height: 50px;
+.header{
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 42px;
   text-align: center;
   border-bottom: solid;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.5);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.header a{
+  float: left;
+  padding: 9px;
+  padding-top: 13px;
+  margin: 0;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.header a:hover{
+  color: grey;
+  border-bottom: solid;
+  border-color: rgba(255, 255, 255, 1);
+}
+#selected{
+  color: grey;
+  border-bottom: solid;
+  border-color: rgba(255, 255, 255, 1);
 }

@@ -1,2 +1,2 @@
 # Projektuppgiften
-Mitt och Johans första project
+Mitt och Johans första projekt

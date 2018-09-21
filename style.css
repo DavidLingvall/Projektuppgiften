@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  margin: 0;
+  background-color: grey;
+}
+#header{
+  background-color:#FFFFFF;
+  height: 50px;
+  text-align: center;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+#wrapper{
+  width: 80%;
+  height: 2000px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  top: 51px;
+  position: absolute;
+  left: 10%
+}

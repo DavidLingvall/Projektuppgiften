@@ -42,6 +42,18 @@ body{
   color: grey;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+
+
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
   width: 100%;

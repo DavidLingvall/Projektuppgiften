@@ -15,6 +15,8 @@ function bytBild(){
     i++;
   }
 }
-function  timer(){
+function timer(){
   setInterval(bytBild, 2000);
 }
+
+$

@@ -9,6 +9,7 @@ body{
 }
 .header{
   background-color: rgba(0, 0, 0, 0.9);
+  
   height: 42px;
   text-align: center;
   border-bottom: solid;

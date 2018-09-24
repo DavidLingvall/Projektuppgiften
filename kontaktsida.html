@@ -4,18 +4,66 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Johans branch</title>
+    <title>Kontakt</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="header">
+    <div class="header">
       <a href="hem.html">Hem</a>
       <a href="startsidaJohan.html">Startsida Johan</a>
-      <a href="kontaktsida.html">Kontaktsida</a>
+      <a id="highlight" href="kontaktsida.html">Kontaktsida</a>
 
 
     </div>
     Kontaktsida
+
+    <div class="container">
+    <form action="action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="email" name="Email" placeholder="Your email..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Phonenumber">Phonenumber</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="phone" name="Phonenumber" placeholder="Your phonenumber..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
   </body>
   <script src="https://code.jquery.com/jquery-latest.js"></script>
 </html>

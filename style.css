@@ -52,7 +52,7 @@ img {
     width: 50%;
     }
 
-
+/*HÄRIFRÅN BÖRJAR MIN INDIVIDUELLA KOD FÖR MIN SIDA
 
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
@@ -115,4 +115,9 @@ input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
+}
+
+h1 {
+font-family: monospace;
+font-style: oblique;
 }

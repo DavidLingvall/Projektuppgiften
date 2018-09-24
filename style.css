@@ -9,7 +9,7 @@ body{
 }
 .header{
   background-color: rgba(0, 0, 0, 0.9);
-  
+
   height: 42px;
   text-align: center;
   border-bottom: solid;
@@ -23,11 +23,11 @@ body{
   width: 100%;
 }
 .header a{
-  float: center;
+  float: left;
   padding: 9px;
   padding-top: 13px;
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
 }

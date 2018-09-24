@@ -22,7 +22,7 @@ body{
   width: 100%;
 }
 .header a{
-  float: left;
+  float: center;
   padding: 9px;
   padding-top: 13px;
   margin: 0;

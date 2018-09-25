@@ -46,8 +46,8 @@ body{
   color: grey;
 }
 .bildSpel{
-  width: 100%;
-  height: 400px;
+  width: 500px;
+  height: auto;
 }
 .test{
   position: fixed;
@@ -55,6 +55,5 @@ body{
   height: 400px;
 }
 .content{
-  text-align: center;
-  width: 900px;
+  width:
 }

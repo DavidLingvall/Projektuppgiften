@@ -5,7 +5,7 @@ body{
 @media screen and (max-width : 500px) {
     body {
         color: blue;
-    }
+    } 
     .wrapper{
       width: 90%;
       height: 2000px;
@@ -68,8 +68,4 @@ body{
       display: block;
       padding-top: 42px;
     }
-
-}
-
-
 }

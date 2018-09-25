@@ -7,23 +7,31 @@ var i = 0;
 function bytBild(){
   if (i < images.length) {
     $('#bildSpel').attr('src', images[i]);
+    $('#bildSpel').fadeIn(2000);
     i++;
   }
   else if (i == images.length) {
     i=0;
     $('#bildSpel').attr('src', images[i]);
+    $('#bildSpel').fadeIn(2000);
     i++;
   }
 }
 function timer(){
-  //setInterval(bytBild, 2000);
-
+  setInterval(test, 4000);
 }
-$("#bildSpel").change(function(){
-    var selected = $(this).val();
-    var image = $("#bildSpel");
-    image.fadeOut('fast', function () {
-        image.attr('src', '/assets/images/mini/'+selected+'.png');
-        image.fadeIn('fast');
-    });
-});
+function test(){
+  $('#bildSpel').fadeOut(2000, function(){
+    if (i < images.length) {
+      $('#bildSpel').attr('src', images[i]);
+      $('#bildSpel').fadeIn(2000);
+      i++;
+    }
+    else if (i == images.length) {
+      i=0;
+      $('#bildSpel').attr('src', images[i]);
+      $('#bildSpel').fadeIn(2000);
+      i++;
+    }
+  });
+}

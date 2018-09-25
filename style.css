@@ -43,3 +43,8 @@ body{
   width: 100%;
   height: 400px;
 }
+.test{
+  position: fixed;
+  width: 100%;
+  height: 400px;
+}

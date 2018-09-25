@@ -8,7 +8,7 @@ body{
   background-color: rgba(255, 255, 255, 1);
 }
 .header{
-<<<<<<< HEAD
+
   position: sticky;
   width: 100%;
   top: 0;
@@ -58,40 +58,6 @@ body{
 .content{
   text-align: center;
   width: 900px;
-=======
-  background-color: rgba(0, 0, 0, 0.9);
-
-  height: 42px;
-  text-align: center;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.5);
-  font-family: monospace;
-  position: sticky;
-  top: 0;
-  overflow: auto;
-  background-color: #333;
-  width: 100%;
-}
-.header a{
-  float: left;
-  padding: 9px;
-  padding-top: 13px;
-  margin: 0;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 1);
-  text-decoration: none;
-}
-.header a:hover{
-  color: grey;
-  -o-transition:.3s;
-  -ms-transition:.3s;
-  -moz-transition:.3s;
-  -webkit-transition:.3s;
-  transition:.3s;
-}
-#highlight{
-  color: grey;
 }
 
 img {
@@ -172,5 +138,5 @@ input[type=submit] {
 h1 {
 font-family: monospace;
 font-style: oblique;
->>>>>>> Johans-
+
 }

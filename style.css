@@ -43,6 +43,9 @@ body{
   -webkit-transition:.3s;
   transition:.3s;
 }
+.header-button{
+  display: none;
+}
 #selected{
   color: grey;
 }
